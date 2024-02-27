@@ -1,7 +1,7 @@
 function getInputValue() {
     let movieName = document.forms["my_form"]["inputMovieName"];
     let inputMovieName = movieName.value;
-    fetch("./06_2_41_MoviesFromJSON.json")
+    fetch("./jupiter1_Activity08_MoviesFromJSON.json")
         .then(response => response.json())
         .then(myMovies => loadMovies(myMovies));
     function loadMovies(myMovies) {

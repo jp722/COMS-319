@@ -4,6 +4,7 @@ fetch("./jupiter1_Activity08_MoviesFromJSON.json")
 
 function loadMovies(myMovies) {
     var mainContainer = document.getElementById("goodmovies");
+    
     for (var i = 0; i < myMovies.movies.length; i++) {
         let title = myMovies.movies[i].title;
         let year = myMovies.movies[i].year;
