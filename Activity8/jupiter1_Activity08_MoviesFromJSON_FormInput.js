@@ -1,3 +1,8 @@
+/*Author: Juan Figueroa
+ISU Netid : jupiter1@iastate.edu
+Date : February 27, 2024
+*/
+
 function getInputValue() {
     let movieName = document.forms["my_form"]["inputMovieName"];
     let inputMovieName = movieName.value;

@@ -1,3 +1,8 @@
+/*Author: Juan Figueroa
+ISU Netid : jupiter1@iastate.edu
+Date : February 27, 2024
+*/
+
 fetch("./jupiter1_Activity08_MoviesFromJSON.json")
     .then(response => response.json())
     .then(myMovies => loadMovies(myMovies));
