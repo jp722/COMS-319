@@ -1,0 +1,160 @@
+div {
+    padding: 1%;
+}
+
+textarea {
+    width: 90%;
+}
+
+img {
+    padding: 1%;
+}
+
+.bio {
+    text-align: center;
+}
+
+.nav {
+    padding-right: 1%;
+}
+
+button {
+    padding: 1%;
+}
+
+br {
+    padding-top: 3%;
+}
+<<<<<<< HEAD
+#textBox{
+    
+    outline: 1px solid grey;
+    margin: .5%;
+    background-color: rgb(50, 50, 50);
+    height: 60vh;
+    overflow:auto;
+
+}
+#textBox:hover { outline: 1px solid rgb(185, 185, 185); }
+
+lineNum{
+    color:greenyellow;
+    font-weight: bolder;
+}
+div {
+    padding: 1%;
+}
+
+textarea {
+    width: 90%;
+}
+
+img {
+    padding: 1%;
+}
+
+.bio {
+    text-align: center;
+}
+
+.nav {
+    padding-right: 1%;
+}
+
+button {
+    padding: 1%;
+}
+
+br {
+    padding-top: 3%;
+}
+
+#textBox{
+    
+    outline: 1px solid grey;
+    margin: .5%;
+    background-color: rgb(50, 50, 50);
+    height: 60vh;
+    overflow:auto;
+
+}
+#textBox:hover { outline: 1px solid rgb(185, 185, 185); }
+
+#textBox{
+    
+    outline: 1px solid grey;
+    margin: .5%;
+    background-color: rgb(50, 50, 50);
+    height: 60vh;
+    overflow:auto;
+
+}
+#textBox:hover { outline: 1px solid rgb(185, 185, 185); }
+
+#card-container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    max-width: 10000px;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    #card-container {
+        width: 100%;
+        display: block;
+        grid-gap: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown.show {
+    display: block;
+}
+
+#list {
+    list-style-type: none;
+    padding: 15px;
+    margin: 0 auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#list li {
+    background-color: #343a40;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#list li:hover {
+    background-color: #495057;
+}
+
+#dropdown {
+    background-color: #212529;
+    border: 1px solid #495057;
+    padding: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: justify;
+}
+
+#dropdown img {
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#dropdown description{
+    margin: 0 auto;
+}
