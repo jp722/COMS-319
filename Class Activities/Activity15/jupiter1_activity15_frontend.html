@@ -1,0 +1,36 @@
+<!--
+ *  Author      : Juan Figueroa
+ *  ISU Netid   : jupiter1@iastate.edu
+ *  Date        : 04/21/2024
+ *
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robots form input</title>
+</head>
+
+<body>
+    <h1>
+        Best Robots:
+    </h1>
+    <div id="robot-container"></div>
+    <div id="found-robot-container"></div>
+    <form id="my_form">
+        <p><input type="text" name="inputRobotNumber"></p>
+        <button type="button" onclick="getInputValue();">One Robot</button>
+    </form>
+    <button class="btn btn-primary" onclick="addNewCustomRobot()">New robot</button>
+    <input type="number" id="deleteRobotById" placeholder="Enter Robot ID">
+    <button onclick="deleteOneRobot()"> Delete Robot:</button>
+    <input type="number" id="updateRobotById" placeholder="Enter Robot ID">
+    <button onclick="updateOneRobot()">Update Robot:</button>
+    <script src="./jupiter1_activity15_frontend.js"></script>
+
+</body>
+
+</html>
