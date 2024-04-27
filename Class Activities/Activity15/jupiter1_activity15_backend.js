@@ -67,7 +67,8 @@ app.post('/addRobot', async (req, res) => {
             "name": values[1], // also "name": req.body.name,
             "price": values[2], // also "price": req.body.price,
             "description": values[3], // also "description": req.body.description,
-            "imageUrl": values[4] // also "imageUrl": req.body.imageUrl
+            "imageUrl": values[4], // also "imageUrl": req.body.imageUrl
+            "rating": {"rate": values[5], "count": values[6]}
         };
         console.log(newDocument);
         const results = await db
